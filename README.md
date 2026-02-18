@@ -168,8 +168,14 @@ luego solamente ejecutamos con un "make"
 - ./fb1-5
 Ahora el escaner y el parser trabajan completamente integrados
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="383" height="151" alt="image" src="https://github.com/user-attachments/assets/4d67caf1-efbf-4293-94a0-73265335e9de" />
+- Flex genera "lex.yy.c"
+- gcc compila el escaner
+- se ejecuta el programa
+- se ingresa el texto
 
-
+Significa que tu regla [0-9]+ está funcionando correctamente. El resto del texto lo ignora
 
 
 

@@ -43,7 +43,7 @@ Usamos el comando:
 # Salida esperada del programa
 Reconoce numeros y operadores basicos y muestra los tokens identificados
 
-
+<img width="383" height="151" alt="image" src="https://github.com/user-attachments/assets/4d67caf1-efbf-4293-94a0-73265335e9de" />
 
 # Ejercicio 2 - Conversion palabras
 Se desarrolló un scanner en Flex que convierte automáticamente ciertas palabras del American English a su equivalente en British English.
@@ -65,6 +65,7 @@ The color of the center is organized
 Salida:
 The colour of the centre is organised
 
+<img width="921" height="254" alt="image" src="https://github.com/user-attachments/assets/c1365137-6ef7-4215-a907-ea6bf730a6e8" />
 
 
 # Ejercicio 3 - Escaner simple con flex
@@ -90,6 +91,8 @@ NEWLINE
 
 Como caso de error si se ingrresa algun carcter desconocido no definido el programa mostrara:
 - Mystery character XXXXXX
+
+<img width="506" height="549" alt="image" src="https://github.com/user-attachments/assets/a860708d-f610-4415-a5c3-c85bee760d20" />
 
 
 
@@ -126,6 +129,8 @@ Salida:
 
 258 corrresponde a NUMBER, 259 a ADD, etc.
 
+<img width="921" height="458" alt="image" src="https://github.com/user-attachments/assets/71319cac-e955-4463-afc3-b5231d14ce77" />
+
 
 
 # Ejercicio 5 - Calculadora Simple 
@@ -146,6 +151,7 @@ Entrada:
 Salida:
 = 7
 
+<img width="921" height="655" alt="image" src="https://github.com/user-attachments/assets/ebff3daa-8676-4df4-b047-2a486238e708" />
 
 
 # Ejercicio 6 - Escaner Integrado
@@ -166,16 +172,8 @@ luego solamente ejecutamos con un "make"
 
 # Ejecucion
 - ./fb1-5
-Ahora el escaner y el parser trabajan completamente integrados
+<img width="747" height="653" alt="image" src="https://github.com/user-attachments/assets/7b5363f3-201f-4234-b81d-a30dd4e5fbe4" />
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-<img width="383" height="151" alt="image" src="https://github.com/user-attachments/assets/4d67caf1-efbf-4293-94a0-73265335e9de" />
-- Flex genera "lex.yy.c"
-- gcc compila el escaner
-- se ejecuta el programa
-- se ingresa el texto
-
-Significa que tu regla [0-9]+ está funcionando correctamente. El resto del texto lo ignora
 
 
 
